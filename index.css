@@ -16,7 +16,7 @@ body {
   grid-template-columns: 1;
   grid-template-rows: auto;
   gap: 3px;
-  /* align-items: center; */
+  align-items: center;
   height: 50vh;
 }
 #head {
@@ -51,6 +51,7 @@ p {
 span {
   text-align: center;
   font-size: 1rem;
+  align-items: center;
 }
 #bot {
   margin:auto;
