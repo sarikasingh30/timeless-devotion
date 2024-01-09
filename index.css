@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-image: url("https://www.bhagwanbhajan.com/shree-ram/shree-ram-hd-wallpapers/shri-ramchandra.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: contain; 
+    background-size:contain;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+height: 120vh;
+}
+#head{
+    margin-top: 10vh;
+    background-color: rgb(54, 24, 2);
+}
+h1 {
+  text-align: center;
+  color: white;
+  /* color: wheat; */
+  font-size: 3rem;
+  font-weight: bolder;
+  opacity: 1;
+}
+.box{
+    display: flex;
+    width:40%;
+    height:8vh;
+    justify-content:space-around;
+    margin: 1%;
+}
+
+.dBox .hBox .mBox .sBox{
+    text-align: center;
+   
+}
+p{
+    font-size: 4rem;
+    font-weight: bolder;
+    /* text-align: center; */
+}
+span{
+    text-align: center;
+    font-size: 2rem;
+}
+#bot{
+    margin-top: 4%;
+    font-size: 35px;
+}
