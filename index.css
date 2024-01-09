@@ -2,21 +2,26 @@
   margin: 0;
   padding: 0;
 }
-body{
-    background-image: url("https://www.bhagwanbhajan.com/shree-ram/shree-ram-hd-wallpapers/shri-ramchandra.png");
-    background-repeat: no-repeat;
-    -webkit-background-size: contain; 
-    background-size:contain;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-height: 120vh;
+body {
+  background-image: url("https://www.bhagwanbhajan.com/shree-ram/shree-ram-hd-wallpapers/shri-ramchandra.png");
+ 
+  background-repeat: no-repeat;
+  -webkit-background-size:cover;
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
 }
-#head{
-    margin-top: 10vh;
-    background-color: rgb(54, 24, 2);
+#main{
+    display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: auto;
+  gap: 3px;
+  /* align-items: center; */
+  height: 50vh;
+}
+#head {
+  margin-top:8vh;
+  background-color: rgb(54, 24, 2);
 }
 h1 {
   text-align: center;
@@ -26,28 +31,74 @@ h1 {
   font-weight: bolder;
   opacity: 1;
 }
-.box{
-    display: flex;
-    width:40%;
-    height:8vh;
-    justify-content:space-around;
-    margin: 1%;
+.box {
+  display: flex;
+  width: 40%;
+  height: 8vh;
+  justify-content: space-around;
+  margin:auto;
+  padding: 1%;
 }
 
-.dBox .hBox .mBox .sBox{
-    text-align: center;
-   
+.dBox .hBox .mBox .sBox {
+  text-align: center;
 }
-p{
-    font-size: 4rem;
-    font-weight: bolder;
-    /* text-align: center; */
+p {
+  font-size: 4rem;
+  font-weight: bolder;
+  /* text-align: center; */
 }
-span{
-    text-align: center;
-    font-size: 2rem;
+span {
+  text-align: center;
+  font-size: 1rem;
 }
-#bot{
-    margin-top: 4%;
-    font-size: 35px;
+#bot {
+  margin:auto;
+  padding: 3%;
+  font-size:3rem;
+}
+
+@media screen and (min-width:658px) and (max-width:935px){
+    body{
+        background-image: url("https://wallpapercave.com/wp/wp4024224.jpg");
+        height: 80vh;
+        /* width: 100%; */
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center;
+    }
+   .box{
+    margin: 0;
+    margin-left:1%;
+    margin-top: 2%;
+    width: 60%;
+   }
+   #bot{
+    margin: 0;
+    font-size: 1.5rem;
+    margin-top: 3%;
+   }
+}
+@media screen and (max-width:657px){
+    body{
+        background-image: url("https://i.pinimg.com/originals/e4/b1/5d/e4b15d63a7648e505d5ff8ade0a9d581.png");
+    }
+    .box{
+        color: white;
+        width: 70%;
+    }
+    #main{
+        height: 80vh;
+        align-items: center;
+    }
+    h1{
+        font-size:2rem;
+    }
+    #bot{
+        margin:auto;
+        font-size: 1.5rem;
+        margin-top: 3%;
+        color: white;
+       }
 }
